@@ -1,0 +1,15 @@
+{
+    "name": "person",
+    "row_name": [
+        "id",
+        "name",
+        "family",
+        "date"
+    ],
+    "row_type": [
+        "serial primary key",
+        "varchar(20) default 'Sergey'",
+        "varchar(20) default 'Syrnikov'",
+        "date default current_timestamp"
+    ]
+}
